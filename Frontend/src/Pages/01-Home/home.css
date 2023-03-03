@@ -1,0 +1,106 @@
+.carousel-demo .product-item .product-item-content {
+  border: 1px solid var(--surface-d);
+  border-radius: 3px;
+  margin: 0.3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.carousel-demo .product-item .product-image {
+  width: 100%;
+  height: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.p-carousel-container {
+  height: 30em;
+}
+
+.header {
+  background: #80808017;
+}
+
+.main__container {
+  display: grid;
+  text-align: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+
+.main_para {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.carousel-demo .product-item .product-item-content {
+  border-color: transparent;
+}
+
+/* //--------------------------- */
+#annualReportBtn {
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  width: 250px;
+  height: 55px;
+  background: red;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#annualReportBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#annualReportBtn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#annualReportBtn:hover span {
+  padding-right: 25px;
+}
+
+#annualReportBtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+  background-color: #e9ecef;
+  width: 10px !important;
+  height: 10px !important;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  border-radius: 50% !important;
+}

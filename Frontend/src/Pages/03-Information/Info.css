@@ -1,0 +1,87 @@
+.info-container {
+  background-color: rgb(222, 220, 220);
+  box-shadow: 5px 10px 8px #888888;
+  border: 1px solid white;
+  margin-top: 130px;
+  margin-left: 500px;
+  width: 900px;
+  position: absolute;
+  /* height: 650px; */
+}
+
+.info2 {
+  padding-top: 25px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info3 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Text-label {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+}
+
+.Text-label-1,
+.Text-label-2,
+.Text-label-3,
+.Text-label-4 {
+  margin: 10px;
+  margin-left: 70px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Organization_no,
+#Company_Name,
+#Postalcode,
+#City {
+  width: 700px;
+  margin-left: -70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.warningLabel {
+  margin-left: 70px;
+  text-align: start;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Text-label-2,
+.Text-label-3,
+.Text-label-4 {
+  padding-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn_div {
+  margin-top: 85px;
+  bottom: 22px;
+  position: relative;
+}
+.btn_MoveOn {
+  width: 150px;
+  height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fieldsStyle {
+  height: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.warningDiv {
+  text-align: end;
+  width: 700px;
+  margin-left: -70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

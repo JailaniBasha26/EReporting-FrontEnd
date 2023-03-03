@@ -1,0 +1,94 @@
+
+ .p-sidebar.p-component.user-sidebar.p-sidebar-right.p-sidebar-active.p-sidebar-enter-done {
+    /* top: 68px; */
+    /* right: 19px; */
+    width: 20%;
+    height: 100%;
+} 
+
+.p-button.p-component.user-btn
+{
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background: #d44333;
+    border: none;
+    font-size: 1rem;
+    transition: red 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 3px;
+}
+
+/* .card.flex.justify-content-center {
+    width: 100%;
+} */
+
+.card.flex.justify-content-center-button {
+    display: inline;
+}
+
+.flex.flex-wrap.gap-2.mb-3 {
+    align-self: center;
+}
+
+.m-0 {
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+
+.head-one {
+    font-size: 20px;
+    margin: 0px 70px; 
+}
+
+.p-inputtext{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.p-password {
+   width: 100%;
+}
+
+/* .p-login-btn {
+ justify-content: center;
+ width: 100%;
+} */
+
+.p-button.login-btn{
+    color: #ffffff;
+    background-color: #2196F3;
+    border: 1px solid #2196F3;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+     transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s; 
+    border-radius: 3px;
+    width: 100%;
+}
+
+.p-button.login-btn:hover {
+    color: white;
+    background: #6d6f70;
+    border: 1px solid #6d6f70;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.p-button.forgot-btn{
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(129, 127, 127);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    /* transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s; */
+    border-radius: 3px;
+    width: 100%;
+}
+
+.p-button.forgot-btn:hover {
+    color: #ffffff;
+    background: white;
+    border: 1px solid rgb(129, 127, 127);
+}

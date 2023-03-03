@@ -1,0 +1,24 @@
+/* body {
+	background-color : white;
+	color : tan;
+	font-family: sans-serif;
+} */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 1fr 7fr;
+}
+
+.header {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1/2;
+  text-align: center;
+  margin: auto;
+}
+
+.content {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}

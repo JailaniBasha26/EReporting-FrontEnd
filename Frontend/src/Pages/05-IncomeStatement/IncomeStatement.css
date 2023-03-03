@@ -1,0 +1,67 @@
+.carousel-demo .product-item .product-item-content {
+  border: 1px solid var(--surface-d);
+  border-radius: 3px;
+  margin: 0.3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.carousel-demo .product-item .product-image {
+  width: 100%;
+  height: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.fields {
+  flex-direction: row;
+  display: flex;
+  padding: 4px;
+  height: 40px;
+}
+
+#fieldsCol {
+  height: 100%;
+}
+
+.incomeStatement {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 1em;
+  padding-top: 2em;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.incomeStatementPadding {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 1em;
+}
+
+.incomeStatementHeader {
+  background: #80808017;
+  margin-top: 5px;
+}
+
+#headingStyle {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.isSumField {
+  font-style: italic;
+  font-weight: 150;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.negativeNumber {
+  color: red;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputFieldWithWarning {
+  flex-direction: row;
+  display: flex;
+}

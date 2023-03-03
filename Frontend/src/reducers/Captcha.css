@@ -1,0 +1,9 @@
+#securityCodeImage {
+  /* background-image: url("../../Assests/captchaBackground.png"); */
+  filter: blur(1.2px);
+}
+
+.captchaImgDiv {
+  background-image: url("../Assests/captchaBackground.png");
+  /* filter: blur(1.5px); */
+}

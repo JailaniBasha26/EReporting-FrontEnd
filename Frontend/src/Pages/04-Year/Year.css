@@ -1,0 +1,205 @@
+.year-main-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid white;
+  width: 900px;
+  text-align: center;
+  margin-top: 130px;
+  background-color: rgb(222, 220, 220);
+  box-shadow: 5px 10px 8px #888888;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .sub {
+border: 1px solid white;
+width: 900px;
+height: 300px;
+text-align: center;
+margin-left: 500px;
+margin-top: 130px;
+background-color:  rgb(222, 220, 220);
+box-shadow:5px 10px 8px #888888;
+font-size: 10px;
+} */
+
+.year-sub2 {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.year-sub3 {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.year-cal-label {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.year-cal-label-1 {
+  margin: 10px;
+  margin-left: 50px;
+  
+}
+.year-cal-label-2 {
+  padding-top: 9px;
+  padding-left: 180px;
+}
+
+.year-cal-label-2 {
+  margin: 10px;
+  margin-left: 180px;
+}
+
+.year-cal-label-1:first-child,
+.year-cal-label-2:first-child {
+  margin-right: 170px;
+}
+
+.year-cal-box {
+  display: flex;
+  width: 100%;
+  /* font-size: 15px; */
+}
+
+#icon {
+  margin-left: 50px;
+  width: 300px;
+  /* margin: 5px; */
+}
+
+#icon:first-child {
+  margin-right: 100px;
+}
+
+.year-drop-label-main {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 12px;
+}
+
+.year-drop-label {
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.year-drop-option {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 750px;
+  float: left;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.year-btn-div {
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.year-btn-save {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  background-color: rgb(215, 168, 168);
+}
+
+.year-btn-save:hover {
+  background-color: #e10404;
+  color: white;
+}
+
+.p-button {
+  color: #ffffff;
+  background: #ce2b2b;
+  border: 1px solid #2196f3;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
+  border-radius: 3px;
+}
+
+button.p-button.p-component.p-datepicker-trigger.p-button-icon-only {
+  background: red;
+  border-color: red;
+}
+
+.warningDiv {
+  padding-left: 100px;
+}
+
+.warningLabel {
+  position: relative;
+  text-align: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  padding-left: 280px;
+}
+
+.fieldsWarningDiv {
+  position: relative;
+  text-align: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+/* .fields-WarningDiv {
+  position: relative;
+  text-align: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  padding-left: 100px;
+}
+
+.fields-WarningDiv1,.fields-WarningDiv2 {
+  margin-left: 100px;
+} */
+
+.fields-WarningDiv {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fields-WarningDiv1 {
+  margin-top: 10px;
+  margin-left: 100px;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fields-WarningDiv2 {
+  margin-top: 10px;
+  margin-left: 300px;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
